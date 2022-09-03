@@ -1,5 +1,5 @@
 {
-  "name": "rxjs",
+  "name": "rxjs-workspaces",
   "version": "7.5.6",
   "description": "Reactive Extensions for modern JavaScript",
   "main": "./dist/cjs/index.js",
@@ -13,6 +13,9 @@
       ]
     }
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
